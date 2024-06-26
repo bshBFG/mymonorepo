@@ -1,0 +1,13 @@
+{
+  "name": "bun-monorepo",
+  "module": "index.ts",
+  "private": "true",
+  "scripts": {
+    "clean": "rm -rf node_modules apps/**/node_modules packages/**/node_modules bun.lockb apps/**/bun.lockb packages/**/bun.lockb"
+  },
+  "type": "module",
+  "workspaces": ["apps/*", "packages/*"],
+  "devDependencies": {
+    "bumpp": "^9.4.1"
+  }
+}
