@@ -7,8 +7,12 @@
     "clean": "rm -rf node_modules apps/**/node_modules packages/**/node_modules bun.lockb apps/**/bun.lockb packages/**/bun.lockb"
   },
   "type": "module",
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "devDependencies": {
     "bumpp": "^9.4.1"
-  }
+  },
+  "version": "0.0.1"
 }
