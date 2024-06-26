@@ -3,6 +3,7 @@
   "module": "index.ts",
   "private": "true",
   "scripts": {
+    "release": "bumpp -r",
     "clean": "rm -rf node_modules apps/**/node_modules packages/**/node_modules bun.lockb apps/**/bun.lockb packages/**/bun.lockb"
   },
   "type": "module",
